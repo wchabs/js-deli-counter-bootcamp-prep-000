@@ -1,7 +1,7 @@
-var katzDeli = [];
 
-function takeANumber (KatzDeliLine, name) {
-  katzDeli.push(name);
-  return `"Hello ${name}, you're ${katsDeli.length} in line."`;
+
+function takeANumber (katzDeliLine, name) {
+  katzDeliLine.push(name);
+  return `"Hello ${name}, you're ${katsDeliLine.length} in line."`;
 }
 

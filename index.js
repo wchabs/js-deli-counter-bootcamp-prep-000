@@ -20,6 +20,9 @@ function currentLine (katzDeliLine) {
   if (katzDeliLine.length > 0) {
     for(var i = 0; i < katzDeliLine.length; i++) {
       var j = i + 1;
+      if (j === katzDeliLine.length) {
+        report = report + " " + j + ". " + katzDeliLine[i];
+      } else
       report = report + " " + j + ". " + katzDeliLine[i] + ",";
     }
     return report;

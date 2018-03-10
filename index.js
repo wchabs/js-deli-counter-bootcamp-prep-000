@@ -1,0 +1,3 @@
+function takeANumber (KatzDeliLine, name) {
+  
+}

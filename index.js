@@ -9,8 +9,9 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var serving;
     katzDeliLine.slice(1);
-    return `Now serving ${serving}`;
+    return `Cuurently serving ${serving}`;
   } else
   return "There is nobody waiting to be served!";
 }
+
 
